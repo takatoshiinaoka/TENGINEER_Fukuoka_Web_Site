@@ -9,13 +9,17 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>学生コミュニティ TENGINEER福岡</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pen.css">
 </head>
 <body>
     <!-- navbar section -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3">
-        <div class="container ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 g3">
+        <div class="container g-3">
           <a class="navbar-brand" href="/">
-            <h2 class="nav-effect pt-1">TENGINNER福岡</h2>
+            <div class="row homeicon g-0">
+                <div class="col-2 sns-icons topicon"><i class='bx bx-code-block'></i></div>
+                <div class="col-10 g-0"><h2 class="nav-effect mb-0">TENGINNER福岡</h2></div>
+            </div>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,13 +30,13 @@
                 <a class="nav-link" href="#">TENGINEER福岡について</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">活動履歴</a>
+                <a class="nav-link" href="#">活動内容</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">メンバー</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ブログ</a>
+                <a class="nav-link" href="#">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">お問い合わせ</a>
@@ -44,9 +48,9 @@
     </nav>
 
     <!-- hero section -->
-    <div class="hero vh-100 d-flex align-items-center" id="home">
-        <div class="container">
-            <div class="row">
+    <div class="hero vh-100 d-flex align-items-center g-3" id="home">
+        <div class="container g-3">
+            <div class="row mt-0">
                 <div class="col-lg-8 mx-auto text-center">
                     <h1 class="display-4 text-white"><div class="text-penguin">TENGINEER福岡</div></h1>
                     <p class="text-white my-3">2022.4に結成された学生コミュニティ。<br>プログラミングや情報系の資格に興味のある仲間が集まり、Discord での交流やイベント開催を行っています。</p>
@@ -71,12 +75,9 @@
         <div class="col-lg-6 col-img"></div>
         <div class="col-lg-6">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-10 pt-4 offset-md-1">
-                        <h6 class="text-primary mt-2">普段はどんな活動をしているの?</h6>
-                        <h1>ハッピーハッキング</h1>
-                        <p>TENGINEER福岡では、分野にこだわらず、様々な技術に関するイベントを行っています。主に、この３つが軸になっています。</p>
-                        
+                <div class="row mb-3">
+                    <div class="col-md-10 offset-md-1">
+                        <h1 class="mt-5">活動内容</h1>
                         <div class="feature d-flex mt-5">
                             <div class="iconbox me-3">
                                 <i class='bx bx-cloud'></i>
@@ -96,8 +97,8 @@
                                 <p>月例会は、月に1度行っています。月例会では、個人の活動を発表するLT（ライトニングトーク）やコミュニティの活動についての話し合い、コミュニティの仲間との交流会をします。</p>
                             </div>
                         </div>
-                        <div class="feature d-flex mt-5">
-                            <div class="iconbox me-3 mb-10">
+                        <div class="feature d-flex mt-5 mb-3">
+                            <div class="iconbox me-3">
                                 <i class='bx bxs-calendar-event'></i>
                             </div>
                             <div>
@@ -105,104 +106,18 @@
                                 <p>外部から講師をお招きしたり、メンバーが得意な技術を教えたりしています。写真は、ARのハンズオン勉強会を主催する吉永さんに、ご登壇いただいた時の写真です。</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Projects section -->
-    <section id="projects">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">Projects</h6>
-                    <h1>Recent Projects</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, dignissimos.</p>
-                </div>
-            </div>
-
-            <div class="row g-3">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="./img/pro1.jpg" alt="">
-                        <div class="div overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="./img/pro2.jpg" alt="">
-                        <div class="div overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="./img/pro3.jpg" alt="">
-                        <div class="div overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="./img/pro4.jpg" alt="">
-                        <div class="div overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="./img/pro5.jpg" alt="">
-                        <div class="div overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="project">
-                        <img src="./img/pro6.jpg" alt="">
-                        <div class="div overlay">
-                            <div>
-                                <h4 class="text-white">Project Title</h4>
-                                <h6 class="text-white">Website Design</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        
     </section>
 
     <!-- team section -->
-    <section id="team" class="bg-light">
+    <section id="team" class="bg-tngn">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">Team</h6>
+                    <h6 class="text-white">メンバー</h6>
                     <h1>Our Fair & Simple Pricing</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, dignissimos.</p>
                 </div>
@@ -217,7 +132,7 @@
                         <div class="social-icons">
                             <a href="#"><i class='bx bxl-facebook'></i></a>
                             <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="#"><i class='bx bxl-github'></i></a>
                         </div>
                     </div>
                 </div>
@@ -229,7 +144,7 @@
                         <div class="social-icons">
                             <a href="#"><i class='bx bxl-facebook'></i></a>
                             <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="#"><i class='bx bxl-github'></i></a>
                         </div>
                     </div>
                 </div>
@@ -241,7 +156,7 @@
                         <div class="social-icons">
                             <a href="#"><i class='bx bxl-facebook'></i></a>
                             <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="#"><i class='bx bxl-github'></i></a>
                         </div>
                     </div>
                 </div>
@@ -253,7 +168,7 @@
                         <div class="social-icons">
                             <a href="#"><i class='bx bxl-facebook'></i></a>
                             <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="#"><i class='bx bxl-github'></i></a>
                         </div>
                     </div>
                 </div>
@@ -265,42 +180,45 @@
         
     </section>
 
-    <!-- blog section -->
-    <section id="blog" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">Blog</h6>
-                    <h1>Latest News From Blog</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, dignissimos.</p>
-                </div>
-                
-                <div class="row g-4">
-                    <div class="col-md-4">
-                        <div class="blog-card card-effect">
-                            <img src="./img/blog1.jpg" alt="">
-                            <h5 class="mb-0 mt-4"><a href="#">Designing smart and slick Bootstrap 5 Website</a></h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, ipsam.</p>
+      <!-- blog esction -->
+      <section class="event past-event">
+        <div class="section-contents">
+            <h2>Blog</h2>
+            <div class="section-contents">
+                <a href="article/20220702/" class="articles-item-link">
+                    <div class="ev-row">
+                        <div class="ev-date">
+                            <div class="ev-yr">2022</div>
+                            <div class="ev-day">09/04</div>
                         </div>
+                        <div class="ev-weekday sun">Sun</div>
+                        <div class="ev-title">ハンズオン「はじめてのARハンズオン#01」を開催しました</div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="blog-card card-effect">
-                            <img src="./img/blog2.jpg" alt="">
-                            <h5 class="mb-0 mt-4"><a href="#">Designing smart and slick Bootstrap 5 Website</a></h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, ipsam.</p>
+                </a>
+                <a href="article/20220730/" class="articles-item-link">
+                    <div class="ev-row">
+                        <div class="ev-date">
+                            <div class="ev-yr">2022</div>
+                            <div class="ev-day">09/04</div>
                         </div>
+                        <div class="ev-weekday sun">Sun</div>
+                        <div class="ev-title">7月の月例会を開催しました</div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="blog-card card-effect">
-                            <img src="./img/blog3.jpg" alt="">
-                            <h5 class="mb-0 mt-4"><a href="#">Designing smart and slick Bootstrap 5 Website</a></h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, ipsam.</p>
+                </a>
+                <a href="article/20220904/" class="articles-item-link">
+                    <div class="ev-row">
+                        <div class="ev-date">
+                            <div class="ev-yr">2022</div>
+                            <div class="ev-day">09/04</div>
                         </div>
+                        <div class="ev-weekday sun">Sun</div>
+                        <div class="ev-title">ハンズオン「UnityでWebAR開発を始めてみよう！」を開催しました</div>
                     </div>
-                </div>
-
+                </a>
             </div>
         </div>
+    
+        <a class="more-articles" href="article/">More ▶</a>
     </section>
 
 
