@@ -25,7 +25,18 @@ section.event.past-event .more-articles {
     font-size: 1.5rem;
     text-decoration: none;
     border-radius: 50px;
-    background-color: #F5B204;;
+    background-color: #F5B204;
+}
+
+section.event.past-event .more-articles p {
+    float: left;
+    margin: auto;
+}
+section.event.past-event .more-articles i {
+    position: relative;
+    float: right;
+    margin: auto;
+    padding-top: 2px;
 }
 
 section.event h2 {
@@ -47,12 +58,14 @@ a.ev-link {
 .ev-row {
     display: flex;
     border-bottom: 1px solid gray;
-    padding: 20px 60px;
+    padding: 20px 30px;
 }
 
 .ev-date {
-    width: 20%;
-    margin-right: 18px;
+    /* width: 20%; */
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
     font-weight: bold;
     align-items: center;
 }
@@ -74,7 +87,7 @@ a:hover .ev-yr {
 }
 
 .ev-weekday {
-    width: 50px;
+    /* width: 50px; */
     padding-top: 6px;
     font-size: 1.2rem;
     line-height: 100%;
@@ -90,6 +103,8 @@ a:hover .ev-weekday {
 
 .ev-weekday.sun {
     color: #bd7878;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 a:hover .ev-weekday.sun {
@@ -107,7 +122,8 @@ a:hover .ev-weekday.sat {
 .ev-title {
     font-weight: bold;
     align-self: end;
-    margin-left: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
     flex: 1;
 }
 
