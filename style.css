@@ -293,7 +293,12 @@ form .form-control {
 .btn {
     padding: 14px 18px;
     border-width: 2px;
-    border-radius: 0;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    transition: all 0.4s ease;
+    transform: translateY(2px);
 }
 
 

@@ -28,6 +28,15 @@ section.event.past-event .more-articles {
     background-color: #F5B204;
 }
 
+section.event.past-event .more-articles:hover {
+    transition: all 0.35s ease;
+    transform: translateY(2px);
+    /* color:   var(--cherryblossom); */
+    color: #F5B204;
+    /* background-color: var(--penguin); */
+    background-color:rgba(39, 50, 72, 0.6);
+}
+
 section.event.past-event .more-articles p {
     float: left;
     margin: auto;
